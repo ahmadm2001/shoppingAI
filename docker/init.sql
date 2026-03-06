@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS shopping_db;
+GRANT ALL PRIVILEGES ON shopping_db.* TO 'shopping_user'@'%';
+FLUSH PRIVILEGES;
